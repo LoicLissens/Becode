@@ -1,0 +1,388 @@
+@import  "libs/_variable.scss";
+body {
+    width: 1425px;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+header {
+  background-color: rgb(233,237,242);
+  display: flex;
+  position: relative;
+  height: 59px;
+  align-items: center;
+  font-size: 120%;
+  font-weight: bolder;
+  
+}
+nav {
+  display: flex;
+}
+.droite{
+  position: absolute;
+  right:0;
+  top:0;
+  margin-right: 5px;
+  
+}
+nav {
+  ul{
+  display: flex;
+  list-style-type: none;
+  }
+  
+}
+.espace_2 {
+
+  padding-left: 20px;
+}
+
+.espace>li {
+  padding: 10px;
+}
+.espace_1>li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#more {
+  color: $grey-background;
+}
+.try_it {
+
+  text-decoration: none; color: white;
+  border: solid 1px black;
+  background-color:  $blue-button;
+  margin-right: 0px;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.sign_in {
+  text-decoration: none; color: black;
+  border: solid 1px black;
+  background-color: white;
+  border-left: none;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+}
+
+
+  
+
+.presentation {
+  text-align: center;
+  background-color: rgb(233, 237, 242);
+}
+
+#tete {
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.appli {
+  max-width: 1425px;
+
+}
+.clip {
+  border-right: solid 1px black;
+  height: 350px;
+  
+}
+.clip>p {
+  max-width: 85%;
+  margin: auto;
+  font-weight: bold;
+}
+.clip>img{
+  margin-top: 20px;
+}
+.bulle {
+  border-right: solid 1px black;
+  height: 350px;
+  
+}
+.bulle>p {
+  max-width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+.bulle>img{
+  margin-top: 20px;
+}
+.radar {
+  border-right: solid 1px black;
+  height: 350px;
+}
+.radar>p {
+  max-width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+.radar>img{
+  margin-top: 20px;
+}
+.contrat {
+  border-right: solid 1px black;
+  height: 350px;
+}
+.contrat>p {
+  max-width: 75%;
+  margin: auto;
+  font-weight: bold;
+}
+.contrat>img{
+  margin-top: 20px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: $darkgrey-background;
+    height: 350px;
+    align-items: center;
+    color: rgb(149,158,168);
+    border: solid 1px black;
+
+  }
+  h4 {
+    color: rgb(233,234,236);
+    font-style: normal;
+  }
+  h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+  }
+  .wrapper1 {
+    display: grid;
+    grid-template-columns: 365px 365px;
+    justify-content: center;
+    
+    
+  }
+  .wap1 {
+    border-right: solid 1px grey;
+  }
+  
+  
+  
+  footer {
+    background-color: rgb(63,70,83);
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(219, 220, 223);
+    font-size: 15px;
+  
+  }
+  .foot {
+
+    background-color: rgb(63,70,83);
+    display: flex;
+    text-align: left;
+    ul {
+      flex: 1;
+      list-style-type: none;
+      }
+      i {
+        flex: 1;
+      }
+      div {
+        display: block;
+    }
+}
+
+.bouton {
+    background-color:  $blue-button;
+    border: solid 1px black;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 35px;
+  }
+  .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .social {
+     
+    display: inline;
+      
+     }
+.partner {
+  margin: auto;
+  background-color: rgb(233, 237, 242);
+  text-align: center;
+  height: 450px;
+  p {
+    width: 51%;
+    margin: auto;
+    font-size: 150%;
+    padding-bottom: 20px;
+    
+  }
+  h2 {  /* j'ai du ajouté un margin-top pour le décoller du bloc du dessus */
+    padding: 40px;
+    margin-top: 100px;
+    font-size: 200%;
+    
+  }
+}
+
+
+
+.cloud {
+  text-align: center;
+}
+.sub {
+  text-align: center;
+  margin-bottom: 100px;
+  h1 {
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}
+.wapbut_2 {
+  margin-top: 35px;
+  a {
+    background-color:  $blue-button;
+    border: solid 1px black;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    text-decoration: none;
+  }
+
+  
+}
+
+
+#parag {
+  font-size: 20px;
+  max-width: 35%;
+  margin: auto;
+  margin-bottom: 30px;
+  font-weight: 350;
+  font-family: 'Open Sans', serif;
+
+}
+.formulaire {
+  background-color: rgb(233, 237, 242);
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  border: solid 1px grey;
+  border-radius: 3px;
+  height: 400px;
+  p {
+    font-weight: 800;
+  }
+  
+}
+
+.para_form{
+  margin-bottom: 0px;
+  text-align: left;
+  font-weight: 800;
+  margin-left: 34px;
+  margin-top: 25px;
+  
+}
+.placehold {
+
+  text-align: left;
+  border: solid 1px grey;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 10px;
+  width: 80%;
+  
+}
+
+.wapbut {
+  background-color:  $blue-button;
+  border: solid 1px black;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.copy {
+  margin-bottom: 0px;
+  color: $grey-background;
+}
+.grey {
+  color: $grey-background;
+}
+.italic {
+  font-style: italic;
+  margin-top: 25px;
+}
+.secu1 {
+  text-decoration: underline; color: $grey-background;
+  font-weight: bold;
+  font-size: 80%;
+  
+}
+.secu {
+  color: $grey-background;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 80%;
+}
+.cloud_serv {
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+.cloud_2 {
+  font-size: 20px;
+  max-width: 50%;
+  margin: auto;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.jango {
+  font-size: 25px;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 35px;
+  font-weight: 600;
+}
+.credit_card {
+  font-weight: bolder;
+  font-size: 90%;
+  margin-bottom: 45px;
+}
+.eau {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}

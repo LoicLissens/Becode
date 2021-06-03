@@ -1,0 +1,136 @@
+/* variables */
+$orangefont:#e74c40;
+
+/* scss */
+body {
+    background-color: white;
+}
+.container {
+    position: relative;
+    top: 120px;
+    left: 450px;
+    height: 450px;
+    width: 350px;
+    background-color: #f2f2f2;
+
+
+}
+.card {
+    z-index: 1;
+    width: 90%;
+    height: 95%;
+    margin: auto;
+    position: relative;
+    top: 7px;
+   
+
+    .image_indien {
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: 105% 65%;
+        width: 100%;
+        height: 100%;
+        transition-property: background-size, opacity, box-shadow;
+        transition-duration: .5s;
+
+    }
+    &:hover {
+        .image_indien{
+        background-size: 115% 75%;
+        opacity: .7;
+        box-shadow: 5px 5px 13px 7px rgba(0,0,0,0.27);
+        }
+        .description {
+            height: 220px;
+        }
+        .indications {
+            top: 185px;
+        }
+        .text {
+            color:gray;
+            transition-delay: .2s;
+        }
+    }
+}
+.date {
+
+    background-color: $orangefont;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    .number {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .month {
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+}
+.indications {
+    z-index: 2;
+    color: white;
+    background-color: $orangefont;
+    display: inline-block;
+    position: absolute;
+    top: 255px;
+    padding: 5px 10px;
+    transition-property: top;
+    transition-duration: .5s;
+    p {
+        margin: 0;
+    }
+}
+.description {
+    width: 315px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    transition-property: height;
+    transition-duration: .5s;
+    .text_hidden {
+
+        width: 90%;
+        margin: auto;
+        transition-property: display;
+        transition-duration: .5s;
+    }
+    .text {
+        color: transparent;
+        transition-property:  color;
+        transition-timing-function: ease-in;
+        animation-duration: 3s;
+        margin-left: 5px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    h2 {
+        font-size: 18px;
+        color: $orangefont;
+        margin-left: 20px;
+    }
+    p {
+        margin-left: 20px;
+    }
+    .infos {
+        display: inline-block;
+        margin-top: 15px;
+        color: lightgray;
+        position: absolute;
+        bottom: 0px;
+    }
+    .comment_right {
+        left: 110px;
+    }
+
+}

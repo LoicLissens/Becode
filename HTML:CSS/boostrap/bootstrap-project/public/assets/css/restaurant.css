@@ -1,0 +1,25 @@
+.jumbotron {
+  width: 100%;
+  height: 70vh;
+  background: url(../img/restau-fond.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.jumbotron h1 {
+  font-size: 6vw;
+}
+
+@media screen and (max-width: 1090px) {
+  .jumbotron {
+    height: auto;
+  }
+}
+
+.b_y {
+  border: solid 2px #e9f173;
+}
+
+li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=restaurant.css.map */

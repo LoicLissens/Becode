@@ -1,0 +1,88 @@
+:root {
+    --main-color: #8CAB7E;
+  }
+body {
+    background-color: #f7e8f6;
+    font-family: 'Space Mono', monospace;
+}
+a {
+    text-decoration: none;
+    color: var(--main-color);
+    display: inline-block;
+    position: relative;
+}
+a::after{  /* inamation de 30 seconde to knowledge*/
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left top, #ab7ea9, #c47f8b, #c28b71, #ac9c6b, #8cab7e);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: #8CAB7E;
+}
+
+h1 {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 35px;
+}
+img  {
+    margin: auto;
+    display: block;
+}
+.lol {
+    font-weight: bold;
+    color: var(--main-color);
+}
+main {
+    max-width: 75%;
+    margin: auto;
+}
+/* --------------------------------------*/
+.r_m {
+    max-width: 76%;
+    text-align: center;
+    margin: auto;
+}
+code {
+    background-color: var(--main-color);
+}
+#italic {
+    font-style: italic;
+}
+#gras {
+    font-weight: bold;
+}
+#I_G {
+    font-style: italic;
+    font-weight: bold;
+}
+#barre {
+    text-decoration: line-through;
+}
+#titre {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* test de fonctionalité css inspiré de 30 sec to knowledge */
+/*.stripe:nth-child(odd) {
+    background-color: #AB7EA9; 
+}
+*/
+
+#test {
+    background: -webkit-linear-gradient(#8CAB7E, #5E335C);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 2px #AB7EA9;
+    font-size: 35px;
+    font-weight: bold;
+}

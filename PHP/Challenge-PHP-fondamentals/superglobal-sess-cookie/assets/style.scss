@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  filter: invert(0); //hue-rotate(360deg);
+}
+h1 {
+  text-align: center;
+  margin-top: 5vh;
+  color: chartreuse;
+}
+main {
+  position: relative;
+}
+section {
+  border: solid 3px chartreuse;
+  border-radius: 8px;
+  width: 55%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

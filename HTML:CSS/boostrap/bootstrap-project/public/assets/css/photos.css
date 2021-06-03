@@ -1,0 +1,14 @@
+.slide-button {
+  color: #e9f173;
+}
+
+.gallery img {
+  width: 25vw;
+}
+
+iframe {
+  height: 75vh;
+  width: 100%;
+  border: none;
+}
+/*# sourceMappingURL=photos.css.map */

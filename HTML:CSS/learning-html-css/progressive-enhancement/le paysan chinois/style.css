@@ -1,0 +1,122 @@
+/* Modification */
+body {
+max-width: 90%;
+margin: auto;  /* centre automatiquement par rapport a la palce qu'illui reste */
+
+background: -webkit-radial-gradient(rgb(252, 138, 21), rgb(30, 228, 148));
+background: radial-gradient(rgb(252, 138, 21), rgb(30, 228, 148));
+background-image: url("fond.png");
+background-repeat: no-repeat;
+background-position: bottom right;
+background-size: cover; 
+
+
+}
+
+/* Ajout d'une nouvelle police, augmentation de la police, changement de couleur, 
+interligne augmenté */
+blockquote {
+    max-width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: gainsboro;
+    border-left: 3px solid brown;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+
+}
+p { 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    color: darkblue;
+    line-height: 150%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* les liens ont une couleur */
+a {
+    background-color: lightseagreen;
+}
+
+
+/* stylise les liens visités en couleur */
+a:visited {
+    color: darkolivegreen;
+
+}
+/* stylise les liens survolé,
+celui-ci doit étre placé après link et visited pour ne pas se faire écraser 
+par ceux-ce du a l'effet de cascade   */
+a:hover {
+    color: greenyellow;
+}
+/* TERMINER LIEN */
+
+
+
+.vil {
+    border-left: solid 3px red;
+}
+.ferm {
+    border-left: solid 3px black;
+}
+q {
+    font-style: italic; 
+}
+header>p {
+    background-color: yellow;
+}
+.mal {
+    text-transform: uppercase;
+    color: red;
+}
+.bien {
+    text-transform: uppercase;
+    color: green;
+
+}
+.grey {
+    background-color: grey;
+}
+.white {
+    background-color: white;
+}
+#good {
+	background-image: url("bien.png");
+	padding-right: 8px;
+	background-repeat: no-repeat;
+	background-position: 28%;
+	background-size: 25px;
+}
+
+#bad {
+	background-image: url("mal.png");
+	padding-right: 8px;
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 28%;
+}
+
+#cat {
+	background-image: url("chat.png");
+	background-repeat: no-repeat;
+	background-position: 31%;
+    background-size: 30px;
+}
+blockquote>p {
+    font-weight: bold;
+
+}
+img {
+    float: left;
+    padding-right: 15px;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+h2 {
+    font-family: 'Indie Flower', cursive;
+}
+}

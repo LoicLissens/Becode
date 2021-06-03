@@ -1,0 +1,200 @@
+// animation flamme
+@keyframes burn { 
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    25% {
+        transform: scale(.8);
+        transform: translate(-5px,-5px);
+        transform: rotate(10px);
+        opacity: .8;
+    }
+    50% {
+        
+        transform: rotate(0px);
+        transform: scale(1);
+        transform: translate(-10px,-10px);
+        opacity: .6;
+    }
+    75% {
+        
+        transform: rotate(-10px);
+        transform: scale(1.2);
+        transform: translate(-15px,-15px);
+        opacity: .4;
+    }
+    100% {
+        
+        transform: rotate(0px);
+        transform: scale(1.4);
+        transform: translate(-20px,-20px);
+        opacity: .2;
+    }
+}
+// header
+header{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    #game-over {
+        display: none;
+        text-align: center;
+        color: black;
+    }
+    #firepng {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        border: solid 1px white;
+        border-radius: 5px;
+        background-color: white;
+        padding: 5px;
+        margin: auto;
+        margin-bottom: 5px;
+        
+    }
+    #replay {
+       display: none;
+}
+
+}
+// page en général
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    
+}
+h1 {
+    text-align: center;
+}
+a:hover{
+    transform: scale(1.2);
+}
+// corp de la page
+main {
+    display: none;
+}
+// aside bonhomme qui se pend
+.le-pendu { // div avec toute l'anime dedans
+    position: fixed;
+    left: 100px;
+    top: 40%;
+    .corde {
+        width: 10px;
+        height: 300px;
+        background-color: #B3753B;
+        
+        position: fixed;
+        top: 0px;
+        left:110px ;
+    }
+    img { // ATTENTION CREDITER SOURCE https://www.flaticon.com/search?word=body%20standing&license=selection
+        transform: scale(7);
+        z-index: 10000;
+    }
+    .feu {
+        height: 120px;
+        width: 120px;
+        position: fixed;
+        top: 410px;
+        left: 65px;
+        .flammes {
+            position: absolute;
+            left: 50px;
+            top: -15px;
+            transform: rotate(45deg);
+            .flamme {
+                width: 60px;
+                height: 60px;
+                border-radius: 8px;
+                position: absolute;
+                background-image: linear-gradient(to top, #ffdc01, #ffd000, #ffc400, #ffb800, #fdac01);
+                
+            }
+            .flamme-un {
+                animation: burn 2s infinite ease-in;
+            }
+            .flamme-deux {
+                animation: burn 2.5s infinite ease-in-out;
+                animation-delay: 1;
+            }
+            .flamme-trois {
+                animation: burn 1s infinite ease-out;
+                animation-delay: 2;
+            }
+        }
+        .bois {
+            transform: translate(0px,50px);
+            .bois-un {
+                width: 100px;
+                height: 20px;
+                background-color: #70392F;
+                border-radius: 10px;
+                transform: rotate(20deg);
+                position: absolute;
+                
+            }
+            .bois-deux {
+                width: 100px;
+                height: 20px;
+                background-color: #70392F;
+                border-radius: 10px;
+                transform: rotate(165deg);
+                position: absolute;
+                
+            }
+        }
+    }
+}
+// Aside texte droit
+.titre-g {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 30px;
+    top: 30%;
+}
+// section
+section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    canvas {
+        background-color: white;
+        position: relative;
+        margin-top: -10px;
+    }
+}
+// instruction input
+.guess-letter-button {
+    display: none;
+}
+// input
+form{
+    margin-top: 5px;
+}
+//   les boutons jouer et devine un mot
+#play {
+    display: none; // on le fait disparaitre il apparaitra garce au js
+}
+.bouton-container{
+    margin-top: 20px;
+}
+.bouton {
+    border: solid 1px white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    
+    
+}

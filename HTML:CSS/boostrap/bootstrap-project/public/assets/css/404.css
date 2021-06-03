@@ -1,0 +1,111 @@
+footer {
+  margin-top: 69px;
+}
+
+.error {
+  margin-top: 50px;
+  -webkit-animation: 6s ease 0s normal forwards 1 error;
+  animation: 6s ease 0s normal forwards 1 error;
+}
+
+@keyframes error {
+  0% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes error {
+  0% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.dragon {
+  margin-top: -580px;
+  position: relative;
+  -webkit-animation-name: dragon;
+          animation-name: dragon;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes dragon {
+  0% {
+    left: 0px;
+    top: 1000px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.explosion2 {
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+  animation: 5s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.explosion {
+  margin-top: -450px;
+  margin-left: 230px;
+  position: relative;
+  -webkit-animation-name: explosion;
+          animation-name: explosion;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes explosion {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 50px;
+    top: 20px;
+  }
+}
+/*# sourceMappingURL=404.css.map */

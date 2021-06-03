@@ -1,0 +1,298 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Cyclops",
+      "alterEgo": "Scott Summers",
+      "abilities": [
+        "Optic force blasts",
+        "Master tactician"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Marvel Girl",
+      "alterEgo": "Jean Grey",
+      "abilities": [
+        "Telekinesis",
+        "Telepathy",
+        "Astral projection"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Beast",
+      "alterEgo": "Hank McCoy",
+      "abilities": [
+        "Genius-level intellect",
+        "Animal-like physiology with enhanced physical attributes and sharp claws and teeth"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Angel",
+      "alterEgo": "Warren Worthington III",
+      "abilities": [
+        "Flight via feathered wings and hollow bones",
+        "Aerial adaptation",
+        "Enhanced physical prowess"
+      ]
+    },
+    {
+      "name": "fff",
+      "alterEgo": "fff",
+      "ablities": [
+        "rr"
+      ],
+      "id": 6
+    },
+    {
+      "name": "fff",
+      "alterEgo": "fff",
+      "ablities": [
+        "rr"
+      ],
+      "id": 7
+    },
+    {
+      "name": "fff",
+      "alterEgo": "fff",
+      "ablities": [
+        "rr"
+      ],
+      "id": 8
+    },
+    {
+      "name": "fff",
+      "alterEgo": "fff",
+      "ablities": [
+        "rr"
+      ],
+      "id": 9
+    },
+    {
+      "name": "lol",
+      "alterEgo": "lll",
+      "ablities": [
+        "lllllljdj"
+      ],
+      "id": 10
+    },
+    {
+      "name": "lol",
+      "alterEgo": "lll",
+      "ablities": [
+        "lllllljdj"
+      ],
+      "id": 11
+    },
+    {
+      "name": "lol",
+      "alterEgo": "lll",
+      "ablities": [
+        "lllllljdj"
+      ],
+      "id": 12
+    },
+    {
+      "name": "lol",
+      "alterEgo": "lll",
+      "ablities": [
+        "lllllljdj"
+      ],
+      "id": 13
+    },
+    {
+      "name": "lol",
+      "alterEgo": "lll",
+      "ablities": [
+        "lllllljdj"
+      ],
+      "id": 14
+    },
+    {
+      "name": "lol",
+      "alterEgo": "lll",
+      "ablities": [
+        "lllllljdj"
+      ],
+      "id": 15
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 16
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 17
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 18
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 19
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 20
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 21
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 22
+    },
+    {
+      "name": "hkkh",
+      "alterEgo": "hkh",
+      "ablities": [
+        "hkhk"
+      ],
+      "id": 23
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "ablities": [
+        ""
+      ],
+      "id": 24
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "ablities": [
+        ""
+      ],
+      "id": 25
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 26
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 27
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 28
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 29
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 30
+    },
+    {
+      "name": "h",
+      "alterEgo": "dddd",
+      "ablities": [
+        "gj"
+      ],
+      "id": 31
+    },
+    {
+      "name": "loic",
+      "alterEgo": "loico",
+      "ablities": [
+        "ksnksn"
+      ],
+      "id": 32
+    },
+    {
+      "name": "loic",
+      "alterEgo": "loico",
+      "ablities": [
+        "ksnksn"
+      ],
+      "id": 33
+    },
+    {
+      "name": "loic",
+      "alterEgo": "loico",
+      "ablities": [
+        "ksnksn"
+      ],
+      "id": 34
+    },
+    {
+      "name": "loic",
+      "alterEgo": "loico",
+      "ablities": [
+        "ksnksn"
+      ],
+      "id": 35
+    },
+    {
+      "name": "loic",
+      "alterEgo": "loico",
+      "ablities": [
+        "ksnksn"
+      ],
+      "id": 36
+    },
+    {
+      "name": "loic",
+      "alterEgo": "loico",
+      "ablities": [
+        "ksnksn"
+      ],
+      "id": 37
+    }
+  ]
+}

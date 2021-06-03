@@ -1,0 +1,138 @@
+
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    margin: 0;
+    
+   
+
+}
+main {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+a {
+    text-decoration: none;
+    color: #FF1F26;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    text-decoration: underline;
+}
+strong { 
+    color: #FF1F26;
+}
+hr {
+    margin: 0px;
+}
+/* header */
+.header {
+    display: flex;
+    height: 50px;
+    margin: auto;
+    justify-content: center;
+    background-color: #FF1F26;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.header>a {
+    margin: auto;
+}
+
+
+
+#logo {
+    margin: auto;
+    display: block;
+}
+/* partie c'est quoi la croix rouge */
+.quoi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    margin-left: auto;
+}
+.texte {
+    border:  solid 1px #FF1F26;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.texte>p {
+    margin: 5px;
+}
+/* Partie Contact*/
+.contacte_1 {
+    background-color: #efefef;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact>article>ul {
+    margin-right: 10px;
+    border: solid 1px #FF1F26;
+    list-style-type: none;
+    
+}
+.cross {
+    color: #FF1F26;
+    
+}
+.map {
+    margin-bottom: 10px;
+}
+/* Parite aide */
+.aide_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aide_1>article {
+    margin: 10px;
+    text-align: center;
+}
+i {
+    color: #FF1F26;
+}
+.aide_1>article>a {
+    font-style: italic;
+    
+    
+}
+/* autre assoc */
+.assoc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.assoc_1 {
+    background-color: #efefef;
+}
+
+
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #FF1F26;
+    
+}

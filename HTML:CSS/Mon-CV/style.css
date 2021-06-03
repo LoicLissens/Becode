@@ -1,0 +1,31 @@
+body{
+    background-color: #ffebcd;
+}
+.intro{
+   
+    justify-content: space-around;
+}
+
+.photo_nom {
+    background-color: white;
+    margin: auto;
+    
+}
+
+.presentation  {
+    background-color: white;
+    display: inline;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: solid 1px ;
+}
+.sk_t {
+    align-self: flex-start;
+    order: 1
+}
+.info {
+    order: 2;
+}

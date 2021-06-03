@@ -1,0 +1,46 @@
+$colorYellow:rgb(233, 241, 115); // variable de la couleur principale
+// style de la nav bar
+nav {
+    z-index:4000;
+    font-size: 1.5em;
+    width: 100%;
+    img {
+        width:5vw;
+    }
+}
+
+// style du footer
+footer {
+    h2 {
+        color: $colorYellow;
+    }
+    i {
+        color: $colorYellow;
+        &:hover {
+            opacity:0.7;
+        }
+    }
+}
+// texte  et animation pour le jumbotron
+header {
+    color: $colorYellow;
+    h1 {
+        text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    }
+}
+// déclaration des classe noPadding et no-gutters, elles sont à ajouter pour enlever le padding  ou  enlever les marge négative
+.noPadding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,67 @@
+@keyframes fadeInDown {
+  // thx anime.css
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 1.5s;
+}
+///
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+  animation-duration: 1.5s;
+}
+///
+
+body {
+  background-image: linear-gradient(to right top, #0093e1, #1d9ce6, #2fa5ea, #3dadef, #4bb6f3, #4bb6f3, #4bb6f3, #4bb6f3, #3dadef, #2fa5ea, #1d9ce6, #0093e1);
+}
+
+.todo {
+  border: solid 3px hsl(171, 100%, 41%);
+  padding: 10px;
+}
+.task {
+  input {
+    margin-right: 5px;
+  }
+}
+#archive {
+  display: none;
+}
+
+.todolist {
+  width: 50vw;
+  .inner-todo {
+    height: 50vh;
+    overflow: scroll;
+  }
+}
+#doarchive {
+  visibility: hidden;
+}
+.true {
+  border: solid 1px red;
+
+  border-radius: 10px;
+  margin: 3px;
+}

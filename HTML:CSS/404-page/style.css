@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to right, #b83b5e, #c5495d, #d1575c, #dc665c, #e5755c, #ed835b, #f4925a, #f9a15a, #fdb359, #fec65b, #fdd960, #f9ed69);
+    color: white;
+}
+
+
+
+._404 {
+   
+    
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Dokdo', cursive;
+    font-size: 300px;
+
+}
+._404>p {
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.not_found {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+
+    font-size: 50px;
+}
+.not_found>p {
+    margin-bottom:  0;
+   
+}
+.nothing {
+    margin-top: -75px;
+}
+.bouton {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    border: solid 5px;
+    border-radius: 8px;
+    padding: 10px;
+
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+.retour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+}
+/* Animations */
+@keyframes bout {
+    0% { margin: 0px;}
+    50% {margin: 200px;}
+    100% {margin: 0px;}
+}
+.bouton:hover {
+    animation-name: bout;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: #b83b5e;
+}

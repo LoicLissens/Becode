@@ -1,0 +1,18 @@
+$colorYellow:rgb(233, 241, 115); // variable de la couleur principale
+// style du caroussel
+.slide-button {
+    color: $colorYellow;
+}
+
+
+.gallery {
+    img {
+        width:25vw;
+    }
+}
+
+iframe {
+    height: 75vh;
+    width: 100%;
+    border: none;
+}

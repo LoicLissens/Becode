@@ -1,0 +1,71 @@
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+  #small {
+    display: block;
+  }
+  #medium {
+    display: block;
+  }
+  #large {
+    display: block;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  #small {
+    width: 33%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+  }
+  #medium {
+    width: 66%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+  }
+  #large {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: blue;
+  }
+  #small {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+  }
+  #medium {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+  }
+  #large {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+  }
+  p {
+    font-size: 29px;
+  }
+}
+
+/* fin responsive */
+/*# sourceMappingURL=style.css.map */

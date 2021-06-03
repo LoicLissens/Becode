@@ -1,0 +1,425 @@
+@charset "UTF-8";
+body {
+  width: 1425px;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #e9edf2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 59px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 120%;
+  font-weight: bolder;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.droite {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 5px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.espace_2 {
+  padding-left: 20px;
+}
+
+.espace > li {
+  padding: 10px;
+}
+
+.espace_1 > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#more {
+  color: #8d9ba2;
+}
+
+.try_it {
+  text-decoration: none;
+  color: white;
+  border: solid 1px black;
+  background-color: #3795f4;
+  margin-right: 0px;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sign_in {
+  text-decoration: none;
+  color: black;
+  border: solid 1px black;
+  background-color: white;
+  border-left: none;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.presentation {
+  text-align: center;
+  background-color: #e9edf2;
+}
+
+#tete {
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.appli {
+  max-width: 1425px;
+}
+
+.clip {
+  border-right: solid 1px black;
+  height: 350px;
+}
+
+.clip > p {
+  max-width: 85%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.clip > img {
+  margin-top: 20px;
+}
+
+.bulle {
+  border-right: solid 1px black;
+  height: 350px;
+}
+
+.bulle > p {
+  max-width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.bulle > img {
+  margin-top: 20px;
+}
+
+.radar {
+  border-right: solid 1px black;
+  height: 350px;
+}
+
+.radar > p {
+  max-width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.radar > img {
+  margin-top: 20px;
+}
+
+.contrat {
+  border-right: solid 1px black;
+  height: 350px;
+}
+
+.contrat > p {
+  max-width: 75%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.contrat > img {
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  background-color: #3f4653;
+  height: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #959ea8;
+  border: solid 1px black;
+}
+
+h4 {
+  color: #e9eaec;
+  font-style: normal;
+}
+
+h5 {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.wrapper1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 365px 365px;
+      grid-template-columns: 365px 365px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wap1 {
+  border-right: solid 1px grey;
+}
+
+footer {
+  background-color: #3f4653;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #dbdcdf;
+  font-size: 15px;
+}
+
+.foot {
+  background-color: #3f4653;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.foot ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style-type: none;
+}
+
+.foot i {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.foot div {
+  display: block;
+}
+
+.bouton {
+  background-color: #3795f4;
+  border: solid 1px black;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.social {
+  display: inline;
+}
+
+.partner {
+  margin: auto;
+  background-color: #e9edf2;
+  text-align: center;
+  height: 450px;
+}
+
+.partner p {
+  width: 51%;
+  margin: auto;
+  font-size: 150%;
+  padding-bottom: 20px;
+}
+
+.partner h2 {
+  /* j'ai du ajouté un margin-top pour le décoller du bloc du dessus */
+  padding: 40px;
+  margin-top: 100px;
+  font-size: 200%;
+}
+
+.cloud {
+  text-align: center;
+}
+
+.sub {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sub h1 {
+  margin-top: 35px;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.wapbut_2 {
+  margin-top: 35px;
+}
+
+.wapbut_2 a {
+  background-color: #3795f4;
+  border: solid 1px black;
+  border-radius: 8px;
+  color: white;
+  padding: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+#parag {
+  font-size: 20px;
+  max-width: 35%;
+  margin: auto;
+  margin-bottom: 30px;
+  font-weight: 350;
+  font-family: 'Open Sans', serif;
+}
+
+.formulaire {
+  background-color: #e9edf2;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  border: solid 1px grey;
+  border-radius: 3px;
+  height: 400px;
+}
+
+.formulaire p {
+  font-weight: 800;
+}
+
+.para_form {
+  margin-bottom: 0px;
+  text-align: left;
+  font-weight: 800;
+  margin-left: 34px;
+  margin-top: 25px;
+}
+
+.placehold {
+  text-align: left;
+  border: solid 1px grey;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 10px;
+  width: 80%;
+}
+
+.wapbut {
+  background-color: #3795f4;
+  border: solid 1px black;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.copy {
+  margin-bottom: 0px;
+  color: #8d9ba2;
+}
+
+.grey {
+  color: #8d9ba2;
+}
+
+.italic {
+  font-style: italic;
+  margin-top: 25px;
+}
+
+.secu1 {
+  text-decoration: underline;
+  color: #8d9ba2;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.secu {
+  color: #8d9ba2;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 80%;
+}
+
+.cloud_serv {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.cloud_2 {
+  font-size: 20px;
+  max-width: 50%;
+  margin: auto;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.jango {
+  font-size: 25px;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 35px;
+  font-weight: 600;
+}
+
+.credit_card {
+  font-weight: bolder;
+  font-size: 90%;
+  margin-bottom: 45px;
+}
+
+.eau {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

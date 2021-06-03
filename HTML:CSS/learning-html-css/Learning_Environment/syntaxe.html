@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8">
+        <title>Exercice markdown</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>La syntaxe en Markdown</h1>
+        <section>
+            <h2>Table des matières</h2>
+            <hr>
+            <ul>
+                <li><a href="#modif">Modification du texte</a></li>
+                <li><a href="#liens">Insérer des liens et des images</a></li>
+                <li><a href="#navig">Navigation dans des fichiers.md</a></li>
+            </ul>
+
+        </section>
+        <section>
+            <h2 id="modif" >Modification du texte </h2>
+            <hr>
+            <ul>
+                <li><span id="italic">Italic</span>: <code>*italique*</code></li>
+                <li><span id="gras">Gras</span>:<code>**gras**</code></li>
+                <li><span id="I_G">Italique gras</span>:<code>***italique gras***</code></li>
+                <li><span id="barre">barré</span>:<code>~~barré~~</code></li>
+                <li><span id="titre">Titre</span>:<code> #Titre</code>. A noter que comme en HTMl, il existe plusieurs taille de tire, au plus on rajoute de "#" au plus le titre sera petit.</li>
+                <li><span>Insertion d'emoji&#128077; </span>:<code>:nom de l'emoji:</code> Dans ce cas-ci <code>:+1:</code> Voici une <a href="https://gist.github.com/rxaviers/7360908" target="_blank">liste</a>
+                des emojis présents en Markdown sur Github et il y en a un paquet&#x2757;
+                </li>
+                <li><span>Les barres de séparation</span>:<code>-----------------</code> Il faut mettre minimum 3 tirets, astérisques, ou barre en bas : <hr color="#8CAB7E"> </li>
+                
+            </ul>
+        </section>
+        <section>
+            <h2 id="liens" >Insérer des liens et des images </h2>
+            <hr>
+            <img src="https://camo.githubusercontent.com/76abb4b5d9c37bd954f2f8f5a889c35958c9f94a/68747470733a2f2f7777772e6265636f64652e6f72672f72656769737465722f6173736574732f696d616765732f6c6f676f5f4265636f64652e706e67" alt="logo becode">
+            <ul>
+                <li>
+                        Insertion d'images: <code>![Logo Beode](https://www.becode.org/register/assets/images/logo_Becode.png</code>
+                </li>
+                <li>
+                    <a href="https://openclassrooms.com/fr/courses/1304236-redigez-en-markdown" target="_blank">Lien source openclassroom</a> :
+                    <code>[lien source openclasseroom](https://openclassrooms.com/fr/courses/1304236-redigez-en-markdown)</code>. <p>C'est comme pour les images mais sans le "!".</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="navig" >Navigation dans des fichiers.md </h2>
+            <hr>
+            <p>
+                    Markdown donne la possibilitée de navigué à l'intérieur d'un fichier .md ainsi qu'entre plusieurs fichier .md
+            </p>
+            <ul>
+                <li>
+                        Navigation dans un même fichier: Pour naviguer au seins d'un même fichier, ce qui est pratique lorsque l'on veut faire une table des matières pas exemple. Si je veux faire pointer un lien en haut de mon texte vers une partie en aval il me sufit d'indentifier cette partie comme ceci:
+                        <code>## Mon premier paragraphe <a name="premierpara"></a></code>. aval il me sufit d'indentifier cette partie comme ceci: ## Mon premier paragraphe <a name="premierpara"></a>. Ensuite de pointer cette identifiant de la même manière que si l'on pointait un lien :
+                        <code>1. [Lien vers mon premier paragraphe](#premierpara)</code>.
+                </li>
+                <li>
+                        Navigation entre plusieurs fichiers: Pour faire un lien pointant vers un autre fichier .md, rien de plus simple, c'est un peu comme en HTML. Si il provient d'un autre utilisateur github, ou d'un fichier dans un autre dépot, il sufit simplement de pointer vers son URL. Si c'est un fichier ou un sous dossier qui est dans le même dépot, c'est toujours similaire au HTML: 
+                        <code>[texte du lien](Nom du dossier/fichier.md)</code> ou <code>[texte du lien](fichier.md)</code>.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Index</h2>
+            <hr>
+            <ol>
+                <li><a href="index.html">Présentation du projet</a></li>
+                <li><a href="whatismd.html">Plus d'infos sur Markdown</a></li>
+            </ol>
+        </section>
+    </main>
+    
+</body>
+</html>

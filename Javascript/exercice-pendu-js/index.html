@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Pendu</title>
+</head>
+<body>
+    <!-- le header sera la seule partie a s'afficher lors du choix du mode-->
+    <header>
+            <h1>Jeux du pendu</h1>
+            <h2 id="game-over">Game over!</h2> 
+            <a href="#" id="one-player">1 joueur(ne marche pas)</a>
+            <a href="#" id="two-players">2 joueurs</a>
+            <a href="#" id="replay">Rejouer</a>
+            <img id="firepng" src="assets/feuu.jpg" alt="">
+    </header>
+    <!-- le main est la partie visilbe quand le jeux est lancé-->
+    <main>
+        
+        <!--Partie a gauche du bonhomme-->
+        <aside class="le-pendu">
+            <div class="corde"></div>
+            <img src="assets/men-silhouette.svg" alt="">
+            <div class="feu">
+                <div class="flammes">
+                        <div class="flamme"></div>
+                    <div class="flamme flamme-un"></div>
+                    <div class="flamme flamme-deux"></div>
+                    <div class="flamme flamme-trois"></div>
+                </div>
+                <div class="bois">
+                    <div class="bois-un"></div>
+                    <div class="bois-deux"></div>
+                </div>
+            </div>
+        </aside>
+        <!--Partie a droite avec le texte-->
+        <aside class="titre-g" >
+            <h2>8 Essais</h2>
+            <h3>Pour survivre!</h3>
+        </aside>
+        <!-- canvas avec le jeux -->
+        <section>
+        <canvas id="pendu" width="600px" height="400px"></canvas>
+        <!--Instruction de jeux -->
+        <div class="instructions">
+            <p class="guess-word-button">Entre un mot à faire deviner</p>
+            <p class="guess-letter-button">Entre une lettre</p>
+        </div>
+        <form>
+            <input id="fill-me" type="text">
+        </form>
+        <div class="bouton-container">
+        <a class="bouton" href="#" id="run">Jouer!</a>
+        <a class="bouton" href="#" id="play" >Devine une lettre!</a>
+        </div>
+        </section>
+
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

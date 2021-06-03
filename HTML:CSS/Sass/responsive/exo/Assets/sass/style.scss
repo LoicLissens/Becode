@@ -1,0 +1,77 @@
+@import "libs/variables";
+
+@media only screen and (max-width: 300px) {
+    body {
+     background-color: red;
+    }
+    #small {
+        display: block;
+    }
+    #medium {
+        display: block;
+    }
+    #large {
+        display: block;
+    }
+    p {
+        font-size: $font_small;
+    }
+  }
+  @media only screen and (min-width: 301px) and (max-width: 768px) {
+    body {
+      background-color: $background_responsive;
+    }
+      #small {
+
+          width: 33%;
+          display: inline-block;
+          margin: auto;
+          text-align: center;
+      }
+      #medium {
+
+        width: 66% ;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+      }
+
+      #large {
+          display: block;
+          width: 100%;
+          margin: auto;
+          text-align: center;
+      }
+      p {
+          font-size: $font_medium;
+      }
+  }
+  @media only screen and (min-width: 769px) {
+    body {
+      background-color: $bg_max;
+    }
+      #small {
+          display: inline-block;
+          text-align: center;
+          width: 33%;
+      }
+      #medium {
+          display: inline-block;
+          text-align: center;
+          width: 33%;
+      }
+      #large {
+          display: inline-block;
+          text-align: center;
+          width: 33%;
+
+      }
+      p {
+          font-size: $font_large
+      }
+    
+  }
+  
+  /* fin responsive */
+
+

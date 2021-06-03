@@ -1,0 +1,29 @@
+/* becode/javascript
+ *
+ * /06-objects/03-keys-values/script.js - 6.3: clés & valeurs
+ *
+ * coded by leny@BeCode
+ * started at 08/05/2019
+ */
+
+// NOTE: don't focus on the existing code structure for now.
+// You will have time to focus on it later.
+
+(() => {
+    const person = {
+        lastname: "Delnatte",
+        firstname: "Pierre-Antoine",
+        nickname: "Leny",
+        birthDate: "08-05-1985",
+        city: "Liège",
+        status: "married",
+    };
+    let longObj = person
+    document.getElementById("run").addEventListener("click", () => { 
+        console.log(Object.keys(person)); //La méthode Object.key("nom de l'objet") renvois un tab contenant toutes les clés
+        console.log(Object.values(person)); //La méthode Object.values("nom de l'objet") renvois un tab contenant toutes les valeurs
+        console.log(person);
+
+    });
+
+})();
